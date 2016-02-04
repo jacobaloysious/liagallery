@@ -5,6 +5,10 @@
   "description": "A gallery for my Daughter LIA",
   "repository": "git://github.com/jacobaloysious/liagallery",
   "author": "Jacob Aloysious",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower install"
+  },
   "dependencies": {
     "body-parser": "~1.4.2",
     "cors": "^2.7.1",
