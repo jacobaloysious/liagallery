@@ -6,12 +6,13 @@
   "repository": "git://github.com/jacobaloysious/liagallery",
   "author": "Jacob Aloysious",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "bower install"
+    "start": "grunt",
+    "postinstall": "bower install && ./node_modules/.bin/grunt"
   },
   "dependencies": {
     "bower": "latest",
     "grunt": "~0.4.5",
+    "grunt-cli": "latest",
     "body-parser": "~1.4.2",
     "cors": "^2.7.1",
     "dotenv": "^2.0.0",
