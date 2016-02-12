@@ -3,6 +3,16 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
+      mochaTest: {
+        test:{
+            options:{
+                reporter: 'spec'
+            },
+            src: ['app/test/**/*.js']
+        }  
+      },
+
+      
     // check all js files for errors
     jshint: {
       all: ['public/js/**/*.js'] 
@@ -35,13 +45,13 @@ module.exports = function(grunt) {
 
   });
 
- 
+  grunt.loadNpmTasks('grunt-mocha-test');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-nodemon');
   grunt.loadNpmTasks('grunt-concurrent');
 
   // register the nodemon task when we run grunt
-  grunt.registerTask('default', ['jshint', 'concurrent']);  
+  grunt.registerTask('default', ['jshint', 'mochaTest', 'concurrent']);  
 
 };
