@@ -1,4 +1,6 @@
-- npm install -g cordova
+[![Build Status](https://travis-ci.org/jacobaloysious/liagallery.svg?branch=master)](https://travis-ci.org/jacobaloysious/liagallery)
+
+## Getting Started
 - npm install
 - npm install tsd -g
 - tsd install
