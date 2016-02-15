@@ -2,6 +2,7 @@
 [![Code Climate](https://codeclimate.com/repos/56c154b62869500e2b017646/badges/ce0e03467b414b1f3c4c/gpa.svg)](https://codeclimate.com/repos/56c154b62869500e2b017646/feed)
 [![Test Coverage](https://codeclimate.com/repos/56c154b62869500e2b017646/badges/ce0e03467b414b1f3c4c/coverage.svg)](https://codeclimate.com/repos/56c154b62869500e2b017646/coverage)
 [![Issue Count](https://codeclimate.com/repos/56c154b62869500e2b017646/badges/ce0e03467b414b1f3c4c/issue_count.svg)](https://codeclimate.com/repos/56c154b62869500e2b017646/issues)
+[![devDependency Status](https://david-dm.org/jacobaloysious/liagallery.svg)](https://david-dm.org/jacobaloysious/liagallery)
 
 ## Getting Started
 - npm install
