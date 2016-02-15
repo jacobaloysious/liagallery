@@ -9,7 +9,7 @@ chai.should();
 
 
 function isEven(num){
-    return num % 2 == 0;
+    return num % 2 === 0;
 }
 
 function add(num1, num2){

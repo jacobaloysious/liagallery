@@ -21,10 +21,10 @@ module.exports = function(grunt) {
     
     watch: {
       css: {
-        files: ['public/css/**/*.css'],
+        files: ['public/css/**/*.css']
       },
       js: {
-        files: ['public/js/**/*.js'],
+        files: ['public/js/**/*.js']
       }
     },
     
